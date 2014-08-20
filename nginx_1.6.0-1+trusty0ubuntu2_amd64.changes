@@ -1,0 +1,67 @@
+Format: 1.8
+Date: Wed, 20 Aug 2014 15:32:23 +0200
+Source: nginx
+Binary: nginx nginx-doc nginx-common nginx-full nginx-full-dbg nginx-light nginx-light-dbg nginx-extras nginx-extras-dbg nginx-naxsi nginx-naxsi-dbg nginx-naxsi-ui
+Architecture: all amd64
+Version: 1.6.0-1+trusty0ubuntu2
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Kartik Mistry <kartik@debian.org>
+Changed-By: root <root@core1.rootlu.orsedd.com>
+Description: 
+ nginx      - small, powerful, scalable web/proxy server
+ nginx-common - small, powerful, scalable web/proxy server - common files
+ nginx-doc  - small, powerful, scalable web/proxy server - documentation
+ nginx-extras - nginx web/proxy server (extended version)
+ nginx-extras-dbg - nginx web/proxy server (extended version) - debugging symbols
+ nginx-full - nginx web/proxy server (standard version)
+ nginx-full-dbg - nginx web/proxy server (standard version) - debugging symbols
+ nginx-light - nginx web/proxy server (basic version)
+ nginx-light-dbg - nginx web/proxy server (basic version) - debugging symbols
+ nginx-naxsi - nginx web/proxy server (version with naxsi)
+ nginx-naxsi-dbg - nginx web/proxy server (version with naxsi) - debugging symbols
+ nginx-naxsi-ui - nginx web/proxy server - naxsi configuration front-end
+Changes: 
+ nginx (1.6.0-1+trusty0ubuntu2) UNRELEASED; urgency=medium
+ .
+   * Added Google Mod Pagespeed (ngx_modpagespeed)
+   * Added Phusion Passenger Enterprise Edition 4.0.45
+Checksums-Sha1: 
+ 69212e1d8536daa0f2482d7946621c45e8ab4f81 19496 nginx_1.6.0-1+trusty0ubuntu2_all.deb
+ 8512b583c4820a635155665203b69a19acaa70d1 30776 nginx-doc_1.6.0-1+trusty0ubuntu2_all.deb
+ ebe6cf1e72a9e8ec466d363742438d17221dbc82 32224 nginx-common_1.6.0-1+trusty0ubuntu2_all.deb
+ 765788720f35a0ee98d14b6ea7182117ff4142e3 2537782 nginx-full_1.6.0-1+trusty0ubuntu2_amd64.deb
+ a76a158e79f4ffdb447955b6d04315fb13070cdb 25618572 nginx-full-dbg_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 81afcbc35dccd9eeca9416548154f6e18721a750 2441394 nginx-light_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 7e835cdb0ee6fa1a23f3d772dd1ac2150084b583 24596030 nginx-light-dbg_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 947b4573d071ab62e914a9259026ef6753220476 2722000 nginx-extras_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 993e05aa78df9ba7691be87a33c93ff6b314e1b7 27331568 nginx-extras-dbg_1.6.0-1+trusty0ubuntu2_amd64.deb
+ ff87a4f07303d4695f02768be882f6ce95d4a9e4 310298 nginx-naxsi_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 6549a8dde9687710b3d50a2ab80b8f252ebb28d9 2314032 nginx-naxsi-dbg_1.6.0-1+trusty0ubuntu2_amd64.deb
+ d9c944a3b5708fe8329852aeec741b1b7a229f61 260994 nginx-naxsi-ui_1.6.0-1+trusty0ubuntu2_all.deb
+Checksums-Sha256: 
+ 1ff999d52ddf200070dbc803057a3b564656a13629bb331fa7a1e6d89890b5d9 19496 nginx_1.6.0-1+trusty0ubuntu2_all.deb
+ e0d9690b5bc8e766a16f25f477db31bd108bda4d86f6e01a37ea6d8d51b41308 30776 nginx-doc_1.6.0-1+trusty0ubuntu2_all.deb
+ b24b84135aadcabc6b42ab4f0f9148b72f90d115c7485370b6bf0ff33944fa54 32224 nginx-common_1.6.0-1+trusty0ubuntu2_all.deb
+ c7f2213c153981094d21fba10927f3a0ed52187bb367a11421d211610883b1e1 2537782 nginx-full_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 41e27a2d67ea4c966acb1b4c750d3bb61cd0e8de67dedd9b8c754f73067f0b06 25618572 nginx-full-dbg_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 7865c041917127f6cfde882c6146d3530a61a84d7db99a7ff979e5fcaac174df 2441394 nginx-light_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 3bbfca11ba3584544a443a5a93b03f5a5b56c2ed5a927d7888ead601725e214e 24596030 nginx-light-dbg_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 7cf8ad818d1c5c7bc85be8e1d6a79fcb180b7984b60a3f607fb49e29daee5804 2722000 nginx-extras_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 64824e27aa773a25e035a5d4f5038ade1ad7a9336396e74cf10469b89bc0d65f 27331568 nginx-extras-dbg_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 81978b244ea7a83fb9a608aa0b6385e160af9eb1d0c7c4866afffc86c33a1535 310298 nginx-naxsi_1.6.0-1+trusty0ubuntu2_amd64.deb
+ bd1fd72d6b70f1e02ba8b802ab933fe02300c8ad76d5bb695e777684669eb1f4 2314032 nginx-naxsi-dbg_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 508e74cd449ab68cecfed2a268c4dda989da14189d71ca515b290de3b9ae391e 260994 nginx-naxsi-ui_1.6.0-1+trusty0ubuntu2_all.deb
+Files: 
+ 4a7be70abdec7d392b9ef142ac2202e8 19496 httpd optional nginx_1.6.0-1+trusty0ubuntu2_all.deb
+ adb8717cb77d4fe2c1c5a9f8bcac17cb 30776 doc optional nginx-doc_1.6.0-1+trusty0ubuntu2_all.deb
+ e8b62daa9fb78593645daf8416b4ec9b 32224 httpd optional nginx-common_1.6.0-1+trusty0ubuntu2_all.deb
+ b5f32a06029eee657a5734090adefad8 2537782 httpd optional nginx-full_1.6.0-1+trusty0ubuntu2_amd64.deb
+ f2d11e32c641f82a144303790b96dd1e 25618572 debug extra nginx-full-dbg_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 63f56bb3faf767e5e657b40507bca754 2441394 httpd extra nginx-light_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 7ff5f5fa1b3456d80e24213adfaf1d22 24596030 debug extra nginx-light-dbg_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 8e14b2ad8b0456097a4fa01dd65941f9 2722000 httpd extra nginx-extras_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 4d0a6e8d2bf0a9661e9cba199dab9aac 27331568 debug extra nginx-extras-dbg_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 45d54c61bd2b61c5e0c908d423abed1a 310298 httpd extra nginx-naxsi_1.6.0-1+trusty0ubuntu2_amd64.deb
+ 4c0c875a4562b7e3a4bc7062231eaf9d 2314032 debug extra nginx-naxsi-dbg_1.6.0-1+trusty0ubuntu2_amd64.deb
+ b4a7a985215884508c0ba95fd3e6123e 260994 httpd extra nginx-naxsi-ui_1.6.0-1+trusty0ubuntu2_all.deb

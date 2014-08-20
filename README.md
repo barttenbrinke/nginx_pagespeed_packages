@@ -4,4 +4,4 @@ Uploaded to Github, because nobody should really try to compile Google pagespeed
 
 Install:
 
-  dpkg -i nginx-full_1.6.0-1+trusty0ubuntu1_amd64.deb nginx-common_1.6.0-1+trusty0ubuntu1_all.deb nginx-doc_1.6.0-1+trusty0ubuntu1_all.deb
+  dpkg -i nginx-full_1.6.0-1+trusty0ubuntu2_amd64.deb nginx-common_1.6.0-1+trusty0ubuntu2_all.deb nginx-doc_1.6.0-1+trusty0ubuntu2_all.deb
