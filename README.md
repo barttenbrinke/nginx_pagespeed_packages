@@ -1,0 +1,3 @@
+Based on https://sysadminblog.net/2014/05/nginx-google-pagespeed-debian-package/
+
+Uploaded to Github, because nobody should really try to compile Google pagespeed, NGINX for Ubuntu 14.04 LTS Trusty...
